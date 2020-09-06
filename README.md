@@ -1,6 +1,6 @@
 # COSC_4351
 
-# Actual App: https://admin-portal-web-app.herokuapp.com/
+# Actual App: https://cosc-4351-admin-portal-web-app.herokuapp.com/
 
 # Members:
 - Patricio Garcia
