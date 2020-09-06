@@ -12,3 +12,6 @@
   - Jinja: Used by Flask for rendering HTML templates which often contain python code
 - Bootstrap: HTML Styling
 - Heroku: Service for hosting app
+
+# Additional Resources:
+- Flask tutorial: CoreyMS https://www.youtube.com/watch?v=MwZwr5Tvyxo
