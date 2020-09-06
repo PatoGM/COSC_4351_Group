@@ -10,7 +10,7 @@
 # Tools Used
 - Python: Primary Language
   - Flask: Web App Framework
-  - Gunicorn: Web Server Gateway Interface (WSGI) HTTP Server -> helps simple apps have good performance
+  - Gunicorn: Web Server Gateway Interface (WSGI) HTTP Server -> essential layer required by Heroku
   - Jinja: Used by Flask for rendering HTML templates which often contain python code
 - Bootstrap: HTML Styling
 - Heroku: Service for hosting app
