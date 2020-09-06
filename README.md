@@ -15,3 +15,4 @@
 
 # Additional Resources:
 - Flask tutorial: CoreyMS https://www.youtube.com/watch?v=MwZwr5Tvyxo
+- More about Gunicorn and WSGI: https://vsupalov.com/what-is-gunicorn/
