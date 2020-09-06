@@ -28,6 +28,6 @@ if __name__ == '__main__':
     app.run(debug=True)
 
 # cd COSC_4351
-# set FLASK_APP=Flask_Practice.py
+# set FLASK_APP=Py_Flask_Test.py
 # set FLASK_ENV=development
 # flask run
