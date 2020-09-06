@@ -1,1 +1,1 @@
-web: gunicorn Py_Flask_Test.wsgi
+web: gunicorn --bind 0.0.0.0:$PORT Py_Flask_Test.wsgi
