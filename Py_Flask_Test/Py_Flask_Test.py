@@ -1,4 +1,4 @@
-from flask import Flask, render_template, url_for
+from flask import Flask, render_template, url_for, request
 
 app = Flask(__name__)   # __name__ is the name of the module, flask knows where to look for templates/static files
 
@@ -8,15 +8,20 @@ posts = [
         'author': 'Site/Post Author',
         'title': 'Basic Site Info',
         'content': 'Instructions and other info regarding this site',
-        'date_posted': 'September 5, 2020'
+        'date_posted': 'November 23, 2020'
     }
 ]
 
 
 @app.route("/")
+@app.route("/about")
+def about():
+    return render_template('about.html')
+
 @app.route("/home")
 def home():
-    return render_template('home.html', posts=posts)
+    admin_type = request.args.get('type')
+    return render_template('home.html', posts=posts, type=admin_type)
 
 
 # @app.route("/about")
